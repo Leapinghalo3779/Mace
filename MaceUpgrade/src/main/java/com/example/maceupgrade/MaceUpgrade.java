@@ -70,6 +70,8 @@ public class MaceUpgrade extends JavaPlugin implements Listener {
         int index = Math.min(kills, DENSITY_LEVEL.length - 1);
         applyLevel(meta, Enchantment.DENSITY, DENSITY_LEVEL[index]);
         applyLevel(meta, Enchantment.WIND_BURST, WIND_BURST_LEVEL[index]);
+        applyLevel(meta, Enchantment.MENDING, 1);
+        applyLevel(meta, Enchantment.UNBREAKING, 3);
 
         mace.setItemMeta(meta);
 
