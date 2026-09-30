@@ -1,0 +1,4 @@
+name: MaceUpgrade
+version: 1.0
+main: com.example.maceupgrade.MaceUpgrade
+api-version: '1.21'
